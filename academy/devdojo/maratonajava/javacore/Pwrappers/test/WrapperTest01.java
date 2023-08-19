@@ -13,10 +13,13 @@ public class WrapperTest01 {
 
     Byte byteW = 1;
     Short shortW = 1;
-    Integer intW = 1;
+    Integer intW = 1; //Auto boxing
     Long longW = 1L;
     Float floatW = 1.1F;
     Double doubleW = 2.2;
     Character charW = 'P';
     Boolean booleanW = true;
+
+    int num = intW; //Unboxing
+    Integer intW2 = Integer.parseInt("12");
 }
